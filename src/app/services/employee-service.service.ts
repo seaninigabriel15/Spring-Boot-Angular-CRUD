@@ -7,7 +7,7 @@ import { EmployeeModel } from './../employeemodel';
 })
 export class EmployeeServiceService {
 
-  private baseUrl = 'http://localhost:8080//api/v1/employees';
+  private baseUrl = 'http://localhost:2021';
 
   constructor(private http: HttpClient) { }
 
