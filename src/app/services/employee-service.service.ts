@@ -7,7 +7,7 @@ import { EmployeeModel } from './../employeemodel';
 })
 export class EmployeeServiceService {
 
-  private baseUrl = 'http://localhost:2021';
+  private baseUrl = 'http://localhost:8080/springbootcrud/api/v1/employees';
 
   constructor(private http: HttpClient) { }
 

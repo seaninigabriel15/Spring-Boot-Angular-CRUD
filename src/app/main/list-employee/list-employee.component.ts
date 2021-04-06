@@ -38,4 +38,8 @@ error => console.log(error);
 employeeDetails(id:number){
   this.router.navigate(['details',id])
 }
+
+updateEmployee(id:number){
+  this.router.navigate(['update',id])
+}
 }
